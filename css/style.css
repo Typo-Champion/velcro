@@ -3,23 +3,30 @@
 margin: 30px;
 width: 100;
 display: grid;
-flex-direction: column;
-flex-flow: wrap;
+/* flex-direction: column;
+flex-flow: wrap; */
 
 
 
 }
 .row {
-  display:flex;
-  flex-wrap: wrap
+  display: flex;
+  /* justify-content: stretch; */
+  /* flex-basis: 10%; */
+  
+  
 }
 
 .col-lg-8 {
-  width: auto;
-  align-content: center;
+  display:grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: stretch;
+  border-inline-start-width: 100px
+  
   
 
-
+  
+  
 }
 
 .col-lg-4 {
@@ -77,6 +84,7 @@ Feel free to play with this pre-added styling!
 @media (min-width: 1199px) {
   .port-item {
     padding: 0em !important;
+    flex-direction: row
   }
 }
 
