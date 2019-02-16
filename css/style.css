@@ -1,28 +1,29 @@
 
 .container {
-    width: auto;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin-right: auto;
-    margin-left: auto;
+margin: 30px;
+width: 100;
+display: grid;
+flex-direction: column;
+flex-flow: wrap;
+
+
+
 }
 .row {
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: row
-
+  display:flex;
+  flex-wrap: wrap
 }
 
 .col-lg-8 {
-  flex-wrap: row;
-  flex-shrink: 0;
-  flex-grow: 1;
+  width: auto;
+  align-content: center;
+  
 
 
 }
 
 .col-lg-4 {
-flex-grow: 1
+
 
 }
 
@@ -35,6 +36,7 @@ flex-grow: 1
 }
 
 .col-md-5 {
+
 
 }
 
@@ -74,12 +76,12 @@ Feel free to play with this pre-added styling!
 /* lg */
 @media (min-width: 1199px) {
   .port-item {
-    padding: 3em !important;
+    padding: 0em !important;
   }
 }
 
 /* md */
-@media (min-width: 600px) { 
+@media (min-width: 770px) { 
  
 }
 
