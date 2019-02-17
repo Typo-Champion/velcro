@@ -10,7 +10,9 @@ flex-flow: wrap; */
 
 }
 .row {
+  margin-right: 0;
   display: flex;
+  flex-wrap: wrap;  
   /* justify-content: stretch; */
   /* flex-basis: 10%; */
   
@@ -18,14 +20,12 @@ flex-flow: wrap; */
 }
 
 .col-lg-8 {
-  /* display:grid;
-  grid-template-columns: repeat(4, auto);
-  justify-content: stretch;
-  border-inline-start-width: 100px;   */
+    flex-grow: 1;
+    flex-direction: row
 }
 
 .col-lg-4 {
-
+    /* display: flex;   */
 
 }
 
