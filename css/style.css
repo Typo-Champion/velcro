@@ -3,8 +3,7 @@
 margin: 30px;
 width: 100;
 display: grid;
-/* flex-direction: column;
-flex-flow: wrap; */
+
 
 
 
@@ -12,21 +11,20 @@ flex-flow: wrap; */
 .row {
   margin-right: 0;
   display: flex;
-  flex-wrap: wrap;  
-  /* justify-content: stretch; */
-  /* flex-basis: 10%; */
+  flex-flow: wrap;
+  padding: 100px;  
+ 
   
   
 }
 
 .col-lg-8 {
     flex-grow: 1;
-    flex-direction: row
+   
 }
 
 .col-lg-4 {
-    /* display: flex;   */
-
+   
 }
 
 .col-md-7 {
